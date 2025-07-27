@@ -23,15 +23,15 @@ Avaliable_for_Saving = (Remaining_Income - Emergency_Fund_Amount - Investment_Am
 Expense_Ratio = (Total_Expenses / monthly_income) * 100
 
 #แสดงผลลัพธ์ออกทางหน้าจอ
-print("===MONTHLY BUDGET REPORT===")
+print("\n===MONTHLY BUDGET REPORT===")
 print("Income:",monthly_income,"THB")
 print("Fixed Expenses:",Total_Fixed_Expenses,"THB")
 print("Variable Expenses:",Total_Variable_Expenses,"THB")
 print("Total Expenses:",Total_Expenses,"THB")
 print("Remaining:",Remaining_Income,"THB")
-print("===SAVINGS BREAKDOWN===")
+print("\n===SAVINGS BREAKDOWN===")
 print("Emergency Fund","(",emergency_fund_percent,"%",")" ,":", Emergency_Fund_Amount ,"THB" )
 print("Investment","(",investment_percent,"%",")" ,":", Investment_Amount ,"THB" )
 print("Avaliable for Savings:",Avaliable_for_Saving,"THB" )
-print("===ANALYSIS===")
+print("\n===ANALYSIS===")
 print(f"Expense Ratio: {Expense_Ratio:.2f}%")
